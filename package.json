@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest"
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:install": "playwright install",
+    "test:e2e:install-deps": "playwright install-deps"
   },
   "dependencies": {
     "next": "16.2.4",
