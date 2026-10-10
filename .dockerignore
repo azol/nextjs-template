@@ -1,0 +1,15 @@
+# Deny everything by default and explicitly allow only files required to build
+# this application.
+
+*
+
+!package.json
+!package-lock.json
+
+!app/
+!app/**
+!public/
+!public/**
+
+!next.config.ts
+!tsconfig.json
